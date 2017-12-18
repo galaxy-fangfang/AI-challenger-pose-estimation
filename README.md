@@ -104,7 +104,7 @@ $ TF_CUDNN_USE_AUTOTUNE=0 CUDA_VISIBLE_DEVICES=0 python3 ../../../train.py
 ```
 *Note that:* there is no space around `=`in the above command `TF_CUDNN_USE_AUTOTUNE=0`and `CUDA_VISIBLE_DEVICES=0`
 
-#Citation
+# Citation
 Please cite ArtTrack and DeeperCut in your publications if it helps your research:
 
     @inproceedings{insafutdinov2017cvpr,
