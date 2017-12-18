@@ -1,6 +1,6 @@
 # Human Pose Estimation with TensorFlow
 
-![](images/test_example1.png)
+![](images/test_example1.jpg)
 
 This is a modified version of [pose-tensorflow](https://github.com/eldar/pose-tensorflow) for [AI challenger](https://challenger.ai/)
 I just train the model for 600000 iterations while the original project requires 1800000 iterations for multi-person pose estimation on COCO dataset.
