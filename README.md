@@ -77,7 +77,7 @@ I chosse the second way: training a model with MS COCO dataset (Multi-person)
 ```
 python ai2coco_art_neckhead_json.py --keypoint_json (<path to 'keypoint_train_annotations_20170909.json'>) --img_dir (train2014/)
 ```
-3. the output json is in the same directory of keypoint_train_annotations_20170909.json's, rename the json: coco_art_neckhead_keypoint_train_annotations_20170909.json to person_keypoints_train2014.json and put it in the directory:
+3. the output json is in the same directory of keypoint_train_annotations_20170909.json's, rename the json: `coco_art_neckhead_keypoint_train_annotations_20170909.json` to `person_keypoints_train2014.json` and put it in the directory:
 ```
 <path to dataset>/COCO/annotations/
 ```
@@ -104,7 +104,7 @@ $ TF_CUDNN_USE_AUTOTUNE=0 CUDA_VISIBLE_DEVICES=0 python3 ../../../train.py
 ```
 *Note that:* there is no space around `=`in the above command `TF_CUDNN_USE_AUTOTUNE=0`and `CUDA_VISIBLE_DEVICES=0`
 
-#s Citation
+#Citation
 Please cite ArtTrack and DeeperCut in your publications if it helps your research:
 
     @inproceedings{insafutdinov2017cvpr,
